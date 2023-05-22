@@ -9,7 +9,7 @@
 class Car:
     brand = "Subaru"
     
-    def __init__(self, model, color,fuel):
+    def __init__(self, model, color,fuel_type):
         self.model = model
         self.color = color
         self.year_made = fuel
